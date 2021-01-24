@@ -1,0 +1,310 @@
+body {
+	font-family: Arial , Helvetica , sans-serif;
+	font-size: 15px;
+	line-height:1.5;
+	margin:0;
+	padding:0;
+	background-color:#414141  ;
+}
+
+/*Global*/
+.container{
+	width: 80%;
+	margin:  auto ;
+	overflow:hidden;
+}
+
+#newsletter .container{	
+	display:inline;
+}
+
+ul{
+	margin:0;
+	padding:0
+}
+
+.button_1{
+	height:38px;
+	background: #e8491d;
+	border:0;
+	padding-left:20px;
+	padding-right:20px;
+	color:#ffff;
+}
+
+.dark{
+	padding:15px;
+	background: #35424a;
+	color: #ffffff;
+	margin-top:10px;
+	margin-bottom:10px;
+	font-size:17px;
+	height:350px;
+}
+
+.dark a{
+	color:#31B326;
+}
+/*header*/
+
+header{
+background:#2e2e2e;
+color:#ffffff;
+padding-top: 30px;
+min-height:70px;
+border-bottom: #587c3d 3px solid;
+}
+
+header a{
+	color: #ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size:16px;
+}
+
+
+
+header li{
+	float:left;
+	display:inline;
+	padding: 0 20px 0 20px;
+
+	}
+
+header #branding{
+float:left;
+	}
+
+header #branding h1{
+margin:0;
+	}
+
+header nav{
+		float:right;
+		margin-top:10px;
+	}
+
+header .highlight, header  .current a{
+	color: #587c3d;
+	font-weight: bold;
+}
+
+header a:hover{
+color:#cccc;
+font-weight:bold;
+}
+
+header #date{
+
+font-size:10px;
+margin:0;
+
+
+}
+
+/* Showcase */
+#showcase{
+	min-height:400px;
+	background: url("./imgs/gta1.jpg") no-repeat  -50px -150px;
+	text-align: center;
+	color: #ffffff;
+}
+
+#showcase h1{
+
+	font-size:55px;
+	margin-top:100px;
+	margin-bottom:10px;
+
+}
+
+#showcase p{
+	font-size: 20px;
+}
+
+/* newsletter */
+#newsletter{
+	padding:15px;
+	color:#ffff;
+	background:#2e2e2e;
+	border-top: #587c3d 3px solid;
+
+
+}
+
+#newsletter h1{
+	float:left;
+	padding:0px 70px 0px 70px;
+}
+
+
+
+#newsletter a{
+	font-size:40px;
+	color:blue;
+	float:center;
+	
+}
+
+
+
+#newsletter .container h1{
+padding-left:200px;
+}
+
+#newsletter .container img{
+	width:70px;
+	height:70px;
+	padding-left:50px;
+
+}
+
+/* boxes */
+.Information{
+background: #414141 ;
+text-align:center;
+}
+
+
+.Information h1{
+padding:20px 20px 0px;
+font-size:40px;
+color:white;
+display: inline-block;
+}
+
+.Information p {
+	
+	font-size:18px;
+	color:white;
+	line-height: 20px;
+    
+
+}
+
+.Information iframe{
+float:right;
+margin-top:10px;
+
+}
+ /* side bar */
+
+  #sidebar{
+ 	float:right;
+ 	width:30%;
+ 	margin-top:10px;
+ 	border-left:2px solid grey;
+ 	padding-left:20px;
+ 	margin-top:90px;
+ 	
+ 	margin-bottom:150px;
+
+ }
+
+ .short{
+ 	height:230px;
+ }
+
+ iframe{
+ 	margin-top:100px;
+ }
+
+ /* main-col */
+#main{
+	background: url("./imgs/gta31.jpg") -200px  ;
+}
+
+#main-services{
+background: url("./imgs/gta2.jpg") ;
+}
+
+#main-col{
+	float:left;	
+	width:55%;
+	line-height: 40px;
+	font-size:18px;
+	color:white;
+}
+
+#main-col2 {
+	float:left;	
+	width:35%;
+	line-height: 40px;
+	font-size:18px;
+	color:white;
+
+}
+	
+#main-col2 li:hover{
+
+width:400px;
+height:300px;
+font-size:30px;
+}
+
+.ProofMain{
+padding-top:10px;
+}
+
+.ProofMain li {
+	display:inline;
+	
+}
+
+.ProofMain img{
+	width:33%;
+	height:20%;
+}
+/* services */
+
+#services li{
+list-style:none;
+padding:20px;
+height:230px;
+border:#cccc 1px solid;
+margin-bottom:20px;
+background: #35424a;
+line-height: 18px;
+}
+
+#services p{
+	font-size:16px;
+}
+
+#services h3{
+color: #E14F06;
+}
+
+strong{
+	/*color:#b20000;
+	color:#E14F06;*/
+	color:#9D0101;
+}
+
+
+
+ footer{
+ 	padding:20px;
+ 	margin-top:0px	
+ 	color:#ffff;
+ 	background-color: #587c3d;
+ 	text-align:center;
+
+ }
+
+
+
+/* Tablet Landscape */
+@media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}  
+}
+/* Tabled Portrait */
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
+}
+ 
+
+img { max-width: 100%; }
+
